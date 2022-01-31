@@ -5,7 +5,8 @@
 }
 
 .first-background{
-    background-image: url(images/bg.jpeg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.3) 100%),url(images/bg.jpeg);
+    
     
     height: 37.25rem;
     background-attachment: fixed;
@@ -15,11 +16,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+   
+    
     
     
 }
 .second-backgrond{
-    background-image: url(images/bg2.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.3) 100%),url(images/bg2.jpg);
     
     height: 30.563rem;
     background-attachment: fixed;
@@ -29,6 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 .second-background__logo img{
     width: 23.75rem;
@@ -67,6 +71,7 @@
     outline-offset: 1rem;
     padding: 2rem 2rem 2rem 2rem; 
     
+    
 }
 .section-second{
     
@@ -97,7 +102,7 @@
 .third-background{
     
     
-    background-image: url(images/bg3.jpeg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.3) 100%),url(images/bg3.jpeg);
     
     height: 30.563rem;
     background-attachment: fixed;
@@ -107,6 +112,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .third-background__header-second{
     font-size: 3rem;
@@ -149,7 +155,7 @@
 .fourth-background{
     
     
-    background-image: url(images/bg4.jpeg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.3) 100%),url(images/bg4.jpeg);
     
     height: 30.563rem;
     background-attachment: fixed;
@@ -159,6 +165,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .fourth-background__header-second{
@@ -205,7 +212,7 @@
 .fifth-background{
     
     
-    background-image: url(images/bg.jpeg);
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.3) 100%), url(images/bg.jpeg);
     
     height: 36.813rem;
     background-attachment: fixed;
@@ -215,6 +222,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .fifth-background__header-fifth{
@@ -236,6 +244,9 @@
     font-weight:700;
 
 }
+
+
+
 
 
 
